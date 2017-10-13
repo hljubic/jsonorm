@@ -1,19 +1,14 @@
-# JsonORM [![](https://jitpack.io/v/hljubic/jsonorm_test.svg)](https://jitpack.io/#hljubic/jsonorm_test)
+# JsonORM [![](https://jitpack.io/v/hljubic/jsonorm.svg)](https://jitpack.io/#hljubic/jsonorm)
 
 Easily distribute data over your Android application. Alternative for SQLite database.
 
 This library is inspired with [SugarORM](https://github.com/chennaione/sugar) library.
 
 ## How it works
-Library serialize your data and store it in JSON format. Process of deserilization is done when retrieving from storage. 
-You can store your data in
+Library serialize your data and store it in JSON format. You can store your data in
 * Text file
 * Shared Preferences
 * Assets (only for read)
-
-## Why you should use it
-If you are tired of SQLite helper classes and need some fast and easy to use ORM solution you are on right place. 
-If you have some predefined data stored in json, you can add it to ***assets*** folder and you are ready to go.
 
 ## Installation
 
@@ -30,7 +25,7 @@ repositories {
 and this lines to your app's build.gradle
 ```
 dependencies {
-    compile 'com.github.hljubic:jsonorm:0.1.0'
+    compile 'com.github.hljubic:jsonorm:1.0.2'
 }
 ```
 
